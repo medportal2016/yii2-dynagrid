@@ -23,7 +23,7 @@ use kartik\base\Config;
  * @author Kartik Visweswaran <kartikv2@gmail.com>
  * @since 1.2.0
  */
-class DynaGridStore extends \yii\base\Object
+class DynaGridStore extends \yii\base\BaseObject
 {
     const STORE_GRID = 'grid';
     const STORE_FILTER = 'filter';
